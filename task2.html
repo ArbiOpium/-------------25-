@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+
+    <style>
+        #color-sample {
+            width: 250px;
+            height: 70px;
+            margin: 10px;
+            background-color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="color-sample"></div>
+    <p>Цвет: <span id="yourColor"></span></p>
+
+    <script>
+        /*
+        Задание:
+        Поправьте сценарий таким образом, чтобы кроме изменения цвета div#color-sample в параграфе под div выводилось сообщение
+        Цвет: #000000
+        Где #000000 значение, цвета фона элемента div#color-sample
+        */
+        let fixedColor = '#000000';
+        document.getElementById("yourColor").innerHTML = fixedColor;
+    </script>
+</body>
+
+</html>
